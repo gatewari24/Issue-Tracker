@@ -1,0 +1,23 @@
+.dropdown-custom {
+  width: 10%;
+}
+#dropdown-true-button {
+  display: flex;
+  align-items: center;
+  width: 950%;
+  margin-left: 20%;
+  background: #28343e;
+  border: none;
+  padding: 25% 12%;
+  margin-top: 230%;
+}
+#dropdown-false-button {
+  display: flex;
+  align-items: center;
+  width: 950%;
+  margin-left: 20%;
+  background: #28343e;
+  border: none;
+  padding: 25% 12%;
+  margin-top: 1050%;
+}

@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  flex-direction: row;
+}
+
+.login_sidebar {
+  width: 40%;
+  height: 100%;
+  color: #fff;
+  background: #1d262d;
+}
+@media (max-width: 800px) {
+  .login {
+    flex-direction: column;
+  }
+  .login_sidebar{
+    width:100%;
+    
+  }
+}
+.login_section {
+  width: 60%;
+}
+.login_tracker {
+  margin: 20% auto 10% auto;
+  display: flex;
+}
+.login_dropdown {
+  width: 95%;
+  height: 5%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 12rem;
+  background: #28343e;
+}
+.login_form {
+  margin: 0 auto;
+  margin-top: 25%;
+  max-width: 70%;
+}
+.login_button {
+  width: 100%;
+}

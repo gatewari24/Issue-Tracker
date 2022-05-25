@@ -1,0 +1,62 @@
+.card_issue-container {
+  width: 280px;
+  background: #fff;
+  padding: 5px 10px;
+  box-shadow: rgba(99, 99, 99, 0.card_2) 0px 2px 8px 0px;
+  border-radius: 2%;
+  margin-bottom: 2%;
+}
+.card_issue-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  font-size: 16px;
+}
+.card_issue-details h5 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.card_issue-description h5 {
+  font-weight: normal;
+  font-size: 18px;
+}
+.card_issue-description p {
+  margin-top: -1%;
+  color: #777778;
+}
+.card_assignee-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_assignee-details img {
+  height: 40px;
+}
+.card_high {
+  background: #dc3545;
+  text-align: center;
+  color: #fff;
+  border-radius: 10%;
+  margin-top: -30%;
+  text-transform: capitalize;
+}
+.card_medium {
+  background: #ebaa02;
+  text-align: center;
+  color: #fff;
+  border-radius: 10%;
+  margin-top: -30%;
+  padding: 0 5px;
+  text-transform: capitalize;
+}
+.card_low {
+  background: #28a745;
+  text-align: center;
+  color: #fff;
+  border-radius: 10%;
+  margin-top: -30%;
+  text-transform: capitalize;
+}
+.card_priority {
+  color: #777778;
+}

@@ -1,0 +1,45 @@
+.nav_header {
+  width: 80vw;
+  height: 80px;
+  background: #d2d7e0;
+  display: flex;
+}
+.nav_search {
+  border: none;
+  border-right: 1px solid #000;
+  background: #d2d7e0;
+  height: 80px;
+  width: 60vw;
+  padding-left: 45px;
+  font-size: 20px;
+}
+.nav_search::placeholder {
+  color: #1d262d;
+}
+.nav_user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+}
+.nav_user img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.nav_user p {
+  padding-top: 2%;
+}
+.nav_info {
+  position: absolute;
+  background: #fff;
+  top: 8%;
+  left: 92%;
+  border: 1px solid #1d262d;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
